@@ -1,0 +1,43 @@
+@media (max-width: 1200px) {
+    .navbar-nav li a{
+        font-size:16px;
+    }
+    .text h2{
+        font-size: 35px;
+    }
+    .text p{
+        font-size:20px;
+    }
+    .navbar-brand {
+        font-size: 22px;
+    }
+
+}
+@media (max-width: 768px){
+    .navbar{
+        background: rgba(0,0,0,.9);
+    }
+    .text h2{
+        font-size: 30px;
+    }
+    .text p{
+        font-size:17px;
+    }
+    .moreBtn{
+        padding: 10px 20px;
+        font-size: 18px;
+    }
+    .navbar-brand {
+        font-size: 20px;
+    }
+    /* 左右按钮隐藏*/
+    .swiper-button-prev,
+    .swiper-button-next{
+        display: none;
+    }
+    /* 关于我们*/
+    /* 改为单列布局 */
+    .items{
+        grid-template-columns: 1fr;
+    }
+}
